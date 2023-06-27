@@ -8,19 +8,16 @@ public class BubbleSortStrategy implements SortingStrategy {
     public void sort(int[] array) {
         boolean sorted = false;
 
-        while(!sorted) {
-            for (int i = 0; i < array.length; i++) {
-                if(array[i + 1] < array[i]) {
-                    int element1 = array[i + 1];
-                    int element2 = array[i];
+        while (!sorted) {
+            sorted = true;
 
-                    array[i + 1] = element2;
-                    array[i] = element1;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] > array[i + 1]) {
+                    int temp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
+                    sorted = false;
                 }
-            }
-
-            for (int i = 0; i < array.length; i++) {
-                sorted = array[i + 1] <= array[i];
             }
         }
 

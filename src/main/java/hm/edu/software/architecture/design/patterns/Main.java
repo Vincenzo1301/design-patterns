@@ -7,6 +7,7 @@ import hm.edu.software.architecture.design.patterns.builder.Car;
 import hm.edu.software.architecture.design.patterns.decorator.Basket;
 import hm.edu.software.architecture.design.patterns.decorator.NullSafeBasket;
 import hm.edu.software.architecture.design.patterns.decorator.WoodenBasket;
+import hm.edu.software.architecture.design.patterns.facade.ServiceFacade;
 import hm.edu.software.architecture.design.patterns.factorypattern.Human;
 import hm.edu.software.architecture.design.patterns.factorypattern.ManFactory;
 import hm.edu.software.architecture.design.patterns.factorypattern.WomanFactory;
@@ -77,5 +78,11 @@ public class Main {
         //
         Charger charger = new ChargerAdapter(new EuropeanCharger());
         charger.charge();
+
+        //
+        // Facade Pattern
+        //
+        ServiceFacade serviceFacade = new ServiceFacade();
+        serviceFacade.operation();
     }
 }
