@@ -65,7 +65,7 @@ public class Main {
         //
         // Strategy Pattern
         //
-        int[] array = {5, 2, 7, 1, 3};
+        int[] array = {5, 2, 7, 1, 3, 9, 4, 6, 8, 10, 11, 15, 14, 12, 17, 19, 16, 20, 22, 23, 25, 24, 26, 30, 32, 2, 1};
 
         SortContext context = new SortContext(new BubbleSortStrategy());
         context.sort(array);
