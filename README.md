@@ -21,7 +21,7 @@ containing the Java source code and a detailed explanation of its purpose, struc
 To get started with this project, follow these steps:
 
 ### Clone the repository:
-- Clone the code with `git clone https://github.com/your-username/your-repo.git`.
+- Clone the code with `git clone https://github.com/Vincenzo1301/design-patterns`.
 - Import the project into your preferred Java IDE.
 
 Explore the different design pattern folders to understand their implementation.
