@@ -7,6 +7,7 @@ import hm.edu.software.architecture.design.patterns.builder.Car;
 import hm.edu.software.architecture.design.patterns.decorator.Basket;
 import hm.edu.software.architecture.design.patterns.decorator.NullSafeBasket;
 import hm.edu.software.architecture.design.patterns.decorator.WoodenBasket;
+import hm.edu.software.architecture.design.patterns.expressionbuilder.Bird;
 import hm.edu.software.architecture.design.patterns.facade.ServiceFacade;
 import hm.edu.software.architecture.design.patterns.factorypattern.Human;
 import hm.edu.software.architecture.design.patterns.factorypattern.ManFactory;
@@ -24,10 +25,16 @@ public class Main {
 
     public static void main(String[] args) {
         //
-        // Builder Pattern
+        // Construction Builder Pattern
         //
         Car car = new Car.CarBuilder().setBrand("BMW").setHorsePower(190).setColor("Blue").build();
         System.out.println(car);
+
+        //
+        // Expression Builder Pattern
+        //
+        Bird bird = new Bird();
+        bird.color("blue").age(12).name("Bobo");
 
         //
         // Factory Method Pattern
