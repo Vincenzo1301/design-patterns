@@ -68,6 +68,7 @@ public class Main {
         //
         Basket nullSafeBasket = new NullSafeBasket(new WoodenBasket());
         nullSafeBasket.put(10);
+        // nullSafeBasket.put(null); - Would throw exception!
 
         //
         // Strategy Pattern

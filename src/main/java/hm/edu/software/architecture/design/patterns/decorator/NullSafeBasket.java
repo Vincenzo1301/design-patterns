@@ -12,6 +12,8 @@ public class NullSafeBasket implements Basket {
     public void put(Integer number) {
         if (number != null) {
             basket.put(number);
+        } else {
+            throw new IllegalArgumentException("Argument cannot be null!");
         }
     }
 }
