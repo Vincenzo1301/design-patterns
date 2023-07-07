@@ -1,4 +1,4 @@
-package hm.edu.software.architecture.design.patterns.builder;
+package hm.edu.software.architecture.design.patterns.constructionbuilder;
 
 public class Car {
 

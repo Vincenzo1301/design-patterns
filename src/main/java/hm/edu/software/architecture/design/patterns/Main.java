@@ -3,7 +3,7 @@ package hm.edu.software.architecture.design.patterns;
 import hm.edu.software.architecture.design.patterns.adapter.Charger;
 import hm.edu.software.architecture.design.patterns.adapter.ChargerAdapter;
 import hm.edu.software.architecture.design.patterns.adapter.EuropeanCharger;
-import hm.edu.software.architecture.design.patterns.builder.Car;
+import hm.edu.software.architecture.design.patterns.constructionbuilder.Car;
 import hm.edu.software.architecture.design.patterns.decorator.Basket;
 import hm.edu.software.architecture.design.patterns.decorator.NullSafeBasket;
 import hm.edu.software.architecture.design.patterns.decorator.WoodenBasket;
