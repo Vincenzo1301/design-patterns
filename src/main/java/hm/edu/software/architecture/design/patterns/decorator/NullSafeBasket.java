@@ -9,8 +9,8 @@ public class NullSafeBasket implements Basket {
     }
 
     @Override
-    public void put(int number) {
-        if (number > 0) {
+    public void put(Integer number) {
+        if (number != null) {
             basket.put(number);
         }
     }
