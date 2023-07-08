@@ -45,5 +45,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 Please ensure your contributions align with the project's purpose and follow good coding practices.
 
+Feel free to create a issue, if something is wrong in your opinion. I'll check it out!
+
 ### License
 This project is licensed under the MIT License. Feel free to use the code provided in this repository for personal or commercial purposes.
