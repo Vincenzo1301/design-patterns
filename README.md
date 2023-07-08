@@ -4,6 +4,7 @@ This repository serves as a showcase of various design patterns implemented in J
 ## Table of Contents
 - Introduction
 - Design Patterns Included
+- PlantUML Diagramms
 - Getting Started
 - Usage
 - Contributing
