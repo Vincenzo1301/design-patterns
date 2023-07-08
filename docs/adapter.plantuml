@@ -1,0 +1,25 @@
+@startuml
+
+interface Target {
+    + request(): void
+}
+
+class Adaptee {
+    + specificRequest(): void
+}
+
+class Adapter {
+    - adaptee: Adaptee
+    + request(): void
+}
+
+class Client {
+    - target: Target
+    + makeRequest(): void
+}
+
+Client --> Target
+Adapter ..|> Target
+Adapter --> Adaptee
+
+@enduml
