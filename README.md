@@ -17,6 +17,9 @@ implementation of several design patterns using Java.
 This repository covers a wide range of design patterns. For each design pattern, you will find a dedicated folder 
 containing the Java source code and a detailed explanation of its purpose, structure, and usage.
 
+## PlantUML Diagramms
+You will find PlantUML diagramms, which visualize the design patterns in the docs folder of the project.
+
 ## Getting Started
 To get started with this project, follow these steps:
 
