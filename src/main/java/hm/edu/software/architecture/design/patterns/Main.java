@@ -9,7 +9,6 @@ import hm.edu.software.architecture.design.patterns.decorator.NullSafeBasket;
 import hm.edu.software.architecture.design.patterns.decorator.WoodenBasket;
 import hm.edu.software.architecture.design.patterns.expressionbuilder.Bird;
 import hm.edu.software.architecture.design.patterns.facade.ServiceFacade;
-import hm.edu.software.architecture.design.patterns.factorypattern.Dinghy;
 import hm.edu.software.architecture.design.patterns.factorypattern.DinghyFactory;
 import hm.edu.software.architecture.design.patterns.factorypattern.ShipFactory;
 import hm.edu.software.architecture.design.patterns.factorypattern.WaterVehicle;
