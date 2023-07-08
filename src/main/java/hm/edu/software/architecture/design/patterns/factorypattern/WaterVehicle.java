@@ -1,6 +1,6 @@
 package hm.edu.software.architecture.design.patterns.factorypattern;
 
-public abstract class Human {
+public interface WaterVehicle {
 
-    public abstract void speak();
+    void startEngine();
 }

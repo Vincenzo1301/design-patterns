@@ -9,9 +9,10 @@ import hm.edu.software.architecture.design.patterns.decorator.NullSafeBasket;
 import hm.edu.software.architecture.design.patterns.decorator.WoodenBasket;
 import hm.edu.software.architecture.design.patterns.expressionbuilder.Bird;
 import hm.edu.software.architecture.design.patterns.facade.ServiceFacade;
-import hm.edu.software.architecture.design.patterns.factorypattern.Human;
-import hm.edu.software.architecture.design.patterns.factorypattern.ManFactory;
-import hm.edu.software.architecture.design.patterns.factorypattern.WomanFactory;
+import hm.edu.software.architecture.design.patterns.factorypattern.Dinghy;
+import hm.edu.software.architecture.design.patterns.factorypattern.DinghyFactory;
+import hm.edu.software.architecture.design.patterns.factorypattern.ShipFactory;
+import hm.edu.software.architecture.design.patterns.factorypattern.WaterVehicle;
 import hm.edu.software.architecture.design.patterns.simplefactory.SimpleVehicleFactory;
 import hm.edu.software.architecture.design.patterns.simplefactory.Vehicle;
 import hm.edu.software.architecture.design.patterns.strategy.BubbleSortStrategy;
@@ -39,11 +40,11 @@ public class Main {
         //
         // Factory Method Pattern
         //
-        Human man = new ManFactory().create();
-        man.speak();
+        WaterVehicle dinghy = new DinghyFactory().build();
+        dinghy.startEngine();
 
-        Human woman = new WomanFactory().create();
-        woman.speak();
+        WaterVehicle ship = new ShipFactory().build();
+        ship.startEngine();
 
         //
         // Simple Factory Method Pattern
