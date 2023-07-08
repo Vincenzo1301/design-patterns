@@ -31,7 +31,7 @@ To get started with this project, follow these steps:
 Explore the different design pattern folders to understand their implementation.
 
 ### Usage
-The code provided in this repository can be used as a reference or learning material for understanding various design patterns in Java. Each design pattern folder contains a dedicated Java file.
+The code provided in this repository can be used as a reference or learning material for understanding various design patterns in Java. Each design pattern package contains a dedicated Java file.
 Feel free to explore, modify, and experiment with the code to understand how each design pattern works in practice. You can also integrate the provided patterns into your own projects as needed.
 
 ### Contributing
