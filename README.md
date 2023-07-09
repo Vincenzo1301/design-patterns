@@ -1,5 +1,5 @@
 # Java Design Patterns Showcase
-This repository serves as a showcase of various design patterns implemented in Java.
+This repository serves as a showcase for various design patterns implemented in Java that were discussed in my Software Architecture lecture.
 
 ## Table of Contents
 - Introduction
