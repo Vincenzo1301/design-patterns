@@ -1,9 +1,10 @@
 # Java Design Patterns Showcase
-This repository serves as a showcase of various design patterns implemented in Java.
+This repository serves as a showcase for various design patterns implemented in Java that were discussed in my Software Architecture lecture in my fourth semester.
 
 ## Table of Contents
 - Introduction
 - Design Patterns Included
+- PlantUML Diagramms
 - Getting Started
 - Usage
 - Contributing
@@ -30,7 +31,7 @@ To get started with this project, follow these steps:
 Explore the different design pattern folders to understand their implementation.
 
 ### Usage
-The code provided in this repository can be used as a reference or learning material for understanding various design patterns in Java. Each design pattern folder contains a dedicated Java file.
+The code provided in this repository can be used as a reference or learning material for understanding various design patterns in Java. Each design pattern package contains a dedicated Java file.
 Feel free to explore, modify, and experiment with the code to understand how each design pattern works in practice. You can also integrate the provided patterns into your own projects as needed.
 
 ### Contributing
@@ -43,6 +44,8 @@ Contributions are welcome! If you would like to contribute to this project, plea
 - Submit a pull request, explaining the changes you've made.
 
 Please ensure your contributions align with the project's purpose and follow good coding practices.
+
+Feel free to create a issue, if something is wrong in your opinion. I'll check it out!
 
 ### License
 This project is licensed under the MIT License. Feel free to use the code provided in this repository for personal or commercial purposes.
