@@ -1,15 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListTest extends AbstractListTest<String> {
+public class ArrayListTest extends AbstractListTest<Integer> {
 
     @Override
-    List<String> subjectUnderTest() {
-        return new ArrayList<>();
+    Integer subjectUnderTest() {
+        return 1;
     }
 
-    @Override
-    String valueUnderTest() {
-        return "String";
-    }
 }

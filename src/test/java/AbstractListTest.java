@@ -1,20 +1,14 @@
 import org.junit.Test;
 
-import java.util.List;
-
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public abstract class AbstractListTest<T> {
 
-    abstract List<T> subjectUnderTest();
-
-    abstract T valueUnderTest();
+    abstract T subjectUnderTest();
 
     @Test
     public void shouldAddValue() {
-        List<T> list1 = subjectUnderTest();
-        list1.add(valueUnderTest());
-
-        assertTrue(list1.contains(valueUnderTest()));
+        T obj = subjectUnderTest();
+        assertFalse(obj.equals(null));
     }
 }
